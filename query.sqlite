@@ -5,3 +5,5 @@ SELECT DISTINCT genre FROM movies;
 SELECT * FROM movies WHERE imdb_rating > 8;
 
 SELECT * FROM movies WHERE name LIKE 'Se_en';
+
+ELECT * FROM movies WHERE name LIKE '%man%';
