@@ -6,6 +6,10 @@ SELECT * FROM movies WHERE imdb_rating > 8;
 
 SELECT * FROM movies WHERE name LIKE 'Se_en';
 
+SELECT * FROM movies WHERE name LIKE 'a%';
+
 ELECT * FROM movies WHERE name LIKE '%man%';
 
 SELECT * FROM movies WHERE name BETWEEN 'A' AND 'J';
+
+SELECT * FROM movies WHERE year BETWEEN 1990 and 2000;
